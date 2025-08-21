@@ -30,3 +30,24 @@ for (let i = 0; i < marcas.length; i++) {
 for (const marca of marcas) {
   console.log(marca);
 }
+
+// -------------------------------------------
+
+function mostrarArray(array) {
+  for (let i = 0; i < array.length; i++) {
+    console.log(array[i]);
+  }
+}
+
+const numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+mostrarArray(numeros);
+
+function estaElemento(numeros, num) {
+  for (let contador = 0; contador < numeros.length; contador++) {
+    if (numeros[contador] === num) {
+      return true;
+    }
+
+    return false;
+  }
+}
