@@ -33,6 +33,8 @@ for (const marca of marcas) {
 
 // -------------------------------------------
 
+// Ejercicio
+/* 
 function mostrarArray(array) {
   for (let i = 0; i < array.length; i++) {
     console.log(array[i]);
@@ -50,4 +52,45 @@ function estaElemento(numeros, num) {
 
     return false;
   }
+}  */
+
+// Objectos
+/* 
+const persona = {
+  nombre: "Juan", 
+  edad: 30,
+  profesion: "Ingeniero",
+  email: "juan.rod@gmail.com",
+};
+
+const persona2 = {
+  nombre: "Leo",
+  edad: 25,
+  ciudad: "Buenos Aires",
+
 }
+
+console.log(persona.nombre);
+console.log(persona2.ciudad); */
+
+const alumnos = [
+  { nombre: "Ana", curso: "HTML" },
+  { nombre: "Carlos", curso: "CSS" },
+  { nombre: "María", curso: "Javascript" },
+];
+
+function informacionAlumnos(alumnosArray) {
+  for (const alumno of alumnosArray) {
+    console.log(alumno.nombre + " Ese alumno es del curso: " + alumno.curso);
+  }
+}
+
+informacionAlumnos(alumnos);
+
+const alumnos2 = [
+  { nombre: "Juan", curso: "HTML" },
+  { nombre: "Leo", curso: "CSS" },
+  { nombre: "Matias", curso: "Javascript" },
+];
+
+informacionAlumnos(alumnos2);
